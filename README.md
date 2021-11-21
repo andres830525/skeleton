@@ -1,8 +1,12 @@
 # Metronic 7 + Laravel 8
 
 ### Introduction
+Prueba Tecnica Unidad de salud Ocupacional
 
-...
+Programador PHP+Laravel
+
+Sistema de gestion documental
+(DMS)
 
 ### Installation
 
@@ -25,6 +29,17 @@ cp .env.example .env
 
 ```bash
 php artisan key:generate
+
+
+php artisan migrate
+
+
+php artisan make:seeder tipodocsSeeder
+
+
+
+php artisan make:seeder areasSeeder
+
 ```
 
 ```bash
